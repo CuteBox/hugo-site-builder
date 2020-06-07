@@ -3,6 +3,7 @@ title        = "C'est la vie."
 languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 10
+publishDir   = ".../dist"
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -23,6 +24,20 @@ paginate     = 10
 
   # Default theme "light" or "dark"
   defaultTheme = "dark"
+
+  # Colors for favicons
+  [params.favicon.color]
+    mask = "#252627"
+    msapplication = "#252627"
+    theme = "#252627"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/rootoe"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:zero0pot@protonmail.com"
 
 [taxonomies]
     category = "blog"
