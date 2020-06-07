@@ -3,7 +3,7 @@ title        = "C'est la vie."
 languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 10
-publishDir   = ".../dist"
+publishDir   = "../dist"
 
 [params]
   dateform        = "Jan 2, 2006"
